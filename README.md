@@ -6,9 +6,9 @@ It includes a basic HTML page made using semantic tags.
 Later i will add CSS,Bootstrao, and JavaScript.
 
 ## Files
-index.html - main web page
-style.css - design file
-script.js -  javaScript file
+- index.html - main web page
+- style.css - design file
+- script.js -  javaScript file
 
 ## How to Run
 1. Download or clone this repository.
