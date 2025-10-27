@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<html1 lang="en">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport"
-content="width=device-width,initial-scale=1.0">
-<title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
 </head>
 <body>
-<h1>Welcome to my Website<h1>
-<p>This is my first HTML page made for Web Engenering Assignment</p>
-</body>
+    <!-- HEADER -->
+     <header>
+        <h1>WELCOME TO MY WEBSITE</h1>
+        <P>Please fill out the form below to registration
+        </P>
+     </header>
+     <!-- MAIN CONTENT -->
+      <main>
+        <!-- ARTICLE -->
+         <article aria-labelledby="reg-heading">
+            <!-- SECTION START -->
+             <section area-labelledby="reg-heading">
+                <h2 id="reg-heading">User Registration</h2>
+                <form id="registerForms"area-labelledby="reg-heading" novalidate>
+                    <!-- name -->
+                     <label for="name">Full Name</label>
+                     <input type="text" id="name" name="name" aria-required="true" required><br><br>
 
+                    <!-- email -->
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email"  aria-required="true" required><br><br>
+                        <!-- password -->
+                         <label for="password">Password</label>
+                         <input type="password" id="password" name="password" aria-required="true" required minlength="6"><br><br> 
+
+                         <!-- Gender -->
+                          <fieldset>
+                            <legend>Gender</legend>
+                            <label for="male"><input type="radio" id="male" name="Gender" value="male">Male</label>
+                            <label for="female"><input type="radio" id="female" name="Gender" value="female">Female</label>
+                            <label for="other"><input type="radio" id="other" name="Gender" value="other">Other</label>
+                          </fieldset><br>
+
+                            <!-- Terms and Conditions -->
+                             <label for="terms">
+                                <input type="checkbox" id="terms" name="terms" aria-required="true" required>
+                                I agree to the Terms and Conditions
+                             </label><br><br>
+                             <!-- Submit button -->
+    
+                             <button type="submit" id="submitBtn">Register</button>
+                </form>
+             </section> 
+            </article>
+        </main>
+        <!-- FOOTER -->
+         <footer>
+            <p>&copy; 2025 Hiba shaukat. All rights reserved.</p>
+         </footer>
+</body>
 </html>
