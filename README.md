@@ -17,3 +17,31 @@ Later i will add CSS,Bootstrao, and JavaScript.
 ## Author
 **Hiba Shaukat**
 Web Engineering Student
+
+---
+
+## 🌸 Day 2 – Semantic Elements and Registration Form
+- Added form with semantic tags: `<header>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- Used `aria-label` and `aria-labelledby` for accessibility.
+- Included labels for all input fields.
+- Added gender options and terms & conditions checkbox.
+
+---
+
+## 🌸 Day 3 – CSS Styling and Layout
+- Added colorful background using linear-gradient.
+- Improved font size, color, and layout alignment.
+- Enhanced form look using padding, borders, and font styling.
+
+---
+
+## 🔗 Live Site
+👉 [Click to open Website](https://hiba-shaukat.github.io/WebEngg-Assignment1/)
+
+---
+
+✅ This repository includes:
+- `index.html`
+- `style.css`
+- `script.js`
+
