@@ -1,0 +1,142 @@
+/* body page background */
+body {
+    background:linear-gradient(135deg,#fbc2eb,#a6c1ee);
+    font-family: Arial,, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header
+{
+    background:linear-gradient(90deg,#6a11cb,#2575fc);
+    color: #fff;
+    text-align: center;
+    padding: 24px 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+/* main layout */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 140px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* form card */
+form{
+    width: 360px;
+    max-width: 360px;
+    background: #ffffff;
+    padding: 28px 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(22,33,62,0.12);
+    border-top: 6px solid rgba(106,17,203,0.95);
+    box-sizing: border-box;
+}
+/* heading inside form */
+h2#reg-heading {
+    margin: 0 0 10px 0;
+    color: #222;
+    font-size: 1.25rem;
+}
+/* labels */
+label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 0.94rem;
+}
+/* input: same size pattern  */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.6px solid #e0e0e6;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font: size 14px;
+    transition: all 0.22s ease;
+}
+/* focus state for inputs */
+input:focus,
+select:focus,
+textarea:focus{
+    outline: none;
+    border-color: rgba(106,17,203,0.85);
+    box-shadow: 0 6px 18px rgba(106,17,203,0.12);
+}
+/* fieldset and legend styling */
+fieldset
+{
+    margin-top: 12px;
+    border: 1.2px solid #e4e6ee;
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+legend
+{
+    padding: 0 6px;
+    font-weight: 600;
+    color: rgba(45, 45, 46, 0.95);
+
+}
+/* radio labels inline and spaced */
+fieldset label
+{
+    display: inline-block;
+    margin-right: 12px;
+    font-weight: 500;
+    color: #444;
+
+}
+/* Checkbox spacing */
+#terms {
+    margin-top: 8px;
+    vertical-align: auto;
+
+}
+/* submit button styling */
+button[type="submit"] {
+    width: 100%;
+    background:linear-gradient(90deg,#6a11cb 0%,#2575fc 100%);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 12px;
+    display: block;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+button[type="submit"]:hover {
+    box-shadow: 0 8px 24px rgba(37,117,252,0.18);
+    transform: translateY(-3px);
+}
+/* footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #111;
+    color: #fff;
+    font-size: 14px;
+}
+/* responsive tweaks */
+@media (max-width: 420px) {
+    form {
+        width: 95%;
+        padding: 18px;
+    }
+    header {
+        padding: 18px 8px;
+        font-size: 1.15rem;
+    }
+    label {
+        margin-top: 10px;
+    }
+}
