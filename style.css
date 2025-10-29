@@ -1,7 +1,7 @@
 /* body page background */
 body {
     background:linear-gradient(135deg,#fbc2eb,#a6c1ee);
-    font-family: Arial,, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -58,7 +58,7 @@ input[type="password"] {
     border: 1.6px solid #e0e0e6;
     border-radius: 8px;
     box-sizing: border-box;
-    font: size 14px;
+    font-size: 14px;
     transition: all 0.22s ease;
 }
 /* focus state for inputs */
@@ -96,7 +96,7 @@ fieldset label
 /* Checkbox spacing */
 #terms {
     margin-top: 8px;
-    vertical-align: auto;
+    vertical-align: middle;
 
 }
 /* submit button styling */
@@ -140,3 +140,94 @@ footer {
         margin-top: 10px;
     }
 }
+ /*===== day4 hover,focus, & polish===== */
+   /*  inputs: subtle transition + focus ring */
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select,
+    textarea {
+        transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.12s ease;
+
+    }
+/*  form state ( keyboard user ky liye important) */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #3a78c2;
+    box-shadow: 0 8px 20px rgba(37,117,252,0.10);
+transform: translateY(-1px);
+}
+/*  labels smaller on top ( optionsl nice look */
+.form-row {
+    margin-bottom: 12px;
+} 
+/* button:hover, active, focus */
+button[type="submit"]
+{
+    transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease; will-change: transform;
+}
+button[type="submit"]:hover {
+    box-shadow: 0 12px 30px rgba(37,117,252,0.18);
+    transform: translateY(-4px) scale(1.01);
+   
+}
+button[type="submit"]:active {
+    transform: translateY(-1px) scale(0.995);
+    opacity: 0.98;
+}
+button[type="submit"]:focus {
+    outline: 3px solid rgba(37,117,252,0.12);
+    outline-offset: 4px;
+}
+/*  radio/checkbox hover for usability */
+fieldset input[type="radio"],
+fieldset input[type="checkbox"] {
+    cursor: pointer;
+}
+fieldset label:hover { color: #222;}
+/* input place holder: softer color */
+::placeholder {
+    color: #9aa0a6;
+    
+}
+/* card hover ( form container subtl lift on hover for desktop) */
+    @media (min-width:700px) {
+        form:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 18px 40px rgba(22,33,62,0.14);
+
+        }
+        forn {
+            transition: transform 0.22s ease, box-shadow 0.22s ease;
+
+        }
+    }
+    
+/* === FINAL FIX: Two-column layout for Name & Email === */
+
+/* Form size control */
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Two-column layout (desktop) */
+.two-col {
+  display: flex;
+  gap: 15px;
+}
+
+/* Each field equal width */
+.two-col .form-row {
+  flex: 1;
+}
+
+/* Stack on small screens */
+@media (max-width: 700px) {
+  .two-col {
+    flex-direction: column;
+  }
+}
+

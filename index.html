@@ -18,16 +18,22 @@
         <!-- ARTICLE -->
          <article aria-labelledby="reg-heading">
             <!-- SECTION START -->
-             <section area-labelledby="reg-heading">
+             <section aria-labelledby="reg-heading">
                 <h2 id="reg-heading">User Registration</h2>
-                <form id="registerForms"area-labelledby="reg-heading" novalidate>
-                    <!-- name -->
-                     <label for="name">Full Name</label>
-                     <input type="text" id="name" name="name" aria-required="true" required><br><br>
-
-                    <!-- email -->
+                <form id="registerForm" aria-labelledby="reg-heading" novalidate>
+                    <!-- name & email side by side  -->
+                    <div class="two-col">
+                     <div class="form-row">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" aria-required="true" required>
+                     </div>
+                     <div class="form-row">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email"  aria-required="true" required><br><br>
+                        <input type="email" id="email" name="email"  aria-required="true" required>
+                     </div>
+                    </div>
+
+         
                         <!-- password -->
                          <label for="password">Password</label>
                          <input type="password" id="password" name="password" aria-required="true" required minlength="6"><br><br> 
@@ -56,5 +62,7 @@
          <footer>
             <p>&copy; 2025 Hiba shaukat. All rights reserved.</p>
          </footer>
+        <script src="script.js"></script>
+
 </body>
 </html>
