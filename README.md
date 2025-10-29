@@ -39,6 +39,16 @@ Web Engineering Student
 👉 [Click to open Website]( https://hibashaukat.github.io/WebEngg-Assignment1/)
 
 ---
+## 🌸 Day 4 – Interactions & Responsive
+
+- Page Layout: responsive layout using Flexbox/CSS Grid for form and content.
+- Styling: CSS box-model used to add spacing, borders and padding (form card).
+- Animations: Button hover effect and input focus transition added.
+- Basic validation: client-side JS for password length and terms checkbox.
+
+  ## 🔗 Live Site
+👉 [Click to open Website]( https://hibashaukat.github.io/WebEngg-Assignment1/)
+
 
 ✅ This repository includes:
 - `index.html`
