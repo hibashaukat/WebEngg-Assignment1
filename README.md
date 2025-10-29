@@ -45,7 +45,17 @@ Web Engineering Student
 - Styling: CSS box-model used to add spacing, borders and padding (form card).
 - Animations: Button hover effect and input focus transition added.
 - Basic validation: client-side JS for password length and terms checkbox.
+- 
+# Day 5 Web Engineering Assignment
 
+Responsive registration page with:
+- Navbar
+- Header
+- Registration form in a card
+- Modal popup
+- Hover effects & responsive design
+
+**Technologies:** HTML, CSS, Bootstrap, JS
   ## 🔗 Live Site
 👉 [Click to open Website]( https://hibashaukat.github.io/WebEngg-Assignment1/)
 
