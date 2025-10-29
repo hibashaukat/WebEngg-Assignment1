@@ -10,9 +10,6 @@ Later i will add CSS,Bootstrao, and JavaScript.
 - style.css - design file
 - script.js -  javaScript file
 
-## How to Run
-1. Download or clone this repository.
-2. Open the 'index.html' file in any browser.
 
 ## Author
 **Hiba Shaukat**
@@ -46,7 +43,7 @@ Web Engineering Student
 - Animations: Button hover effect and input focus transition added.
 - Basic validation: client-side JS for password length and terms checkbox.
 - 
-# Day 5 Web Engineering Assignment
+## Day 5 Web Engineering Assignment
 
 Responsive registration page with:
 - Navbar
@@ -56,6 +53,28 @@ Responsive registration page with:
 - Hover effects & responsive design
 
 **Technologies:** HTML, CSS, Bootstrap, JS
+
+# Web Engineering Assignment 1 - Day 6
+
+## Task
+1. User Registration Form using Bootstrap and custom CSS
+2. Form Validation using JavaScript
+3. DOM Manipulation to show dynamic greeting
+4. Events Handling (form submit, input focus, button hover)
+5. Responsive Design for mobile, tablet, desktop
+6. Bootstrap Components used: Navbar, Card, Modal
+
+## How to Use
+1. Open `index.html` in browser or via GitHub Pages link
+2. Fill the registration form
+3. On successful validation:
+   - A greeting message is displayed
+   - Modal pops up
+4. Responsive layout adjusts on different screen sizes
+
+## Author
+Hiba Shaukat
+
   ## 🔗 Live Site
 👉 [Click to open Website]( https://hibashaukat.github.io/WebEngg-Assignment1/)
 
